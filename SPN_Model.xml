@@ -1,0 +1,3682 @@
+<com.local.entities.ProjectDesdac>
+  <file>C:\Users\pasid\Desktop\MODELOS DDOES\SPN_Model.xml</file>
+  <graphChanged>true</graphChanged>
+  <name>SPN_Model</name>
+  <mercuryVersion>5.0.1</mercuryVersion>
+  <appSPN>
+    <edspn>
+      <numberPlaces>21</numberPlaces>
+      <numberTransitions>16</numberTransitions>
+      <numberDelayParameters>0</numberDelayParameters>
+      <numberMarkingParameters>0</numberMarkingParameters>
+      <numberRewardMeasures>6</numberRewardMeasures>
+      <numberLabelModels>0</numberLabelModels>
+      <numberDefinitions>17</numberDefinitions>
+      <places>
+        <org.modcs.tools.spn.model.Place>
+          <name>P0</name>
+          <marking>100</marking>
+          <stringMarking>Q1</stringMarking>
+          <positionPlace class="java.awt.geom.Point2D$Double">
+            <x>2.9133333333333336</x>
+            <y>2.7533333333333334</y>
+          </positionPlace>
+          <positionTag class="java.awt.Point">
+            <x>465</x>
+            <y>202</y>
+          </positionTag>
+          <edspn>
+            <numberPlaces>21</numberPlaces>
+            <numberTransitions>16</numberTransitions>
+            <numberDelayParameters>0</numberDelayParameters>
+            <numberMarkingParameters>0</numberMarkingParameters>
+            <numberRewardMeasures>3</numberRewardMeasures>
+            <numberLabelModels>0</numberLabelModels>
+            <numberDefinitions>17</numberDefinitions>
+            <places>
+              <org.modcs.tools.spn.model.Place reference="../../.."/>
+              <org.modcs.tools.spn.model.Place>
+                <name>P1</name>
+                <marking>0</marking>
+                <stringMarking>0</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>2.9466666666666668</x>
+                  <y>1.9533333333333334</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>421</x>
+                  <y>225</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>0</initialStringMarking>
+                <description></description>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P2</name>
+                <marking>2</marking>
+                <stringMarking>C1</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>3.8733333333333335</x>
+                  <y>1.2466666666666666</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>578</x>
+                  <y>204</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>C1</initialStringMarking>
+                <description></description>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P3</name>
+                <marking>0</marking>
+                <stringMarking>0</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>3.8733333333333335</x>
+                  <y>1.92</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>585</x>
+                  <y>257</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>0</initialStringMarking>
+                <description></description>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P4</name>
+                <marking>100</marking>
+                <stringMarking>Q2</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>5.086666666666667</x>
+                  <y>2.6266666666666665</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>768</x>
+                  <y>195</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>Q2</initialStringMarking>
+                <description></description>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P5</name>
+                <marking>0</marking>
+                <stringMarking>0</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>5.12</x>
+                  <y>1.8866666666666667</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>785</x>
+                  <y>264</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>0</initialStringMarking>
+                <description></description>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P6</name>
+                <marking>2</marking>
+                <stringMarking>C2</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>6.046666666666667</x>
+                  <y>1.1866666666666668</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>900</x>
+                  <y>199</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>C2</initialStringMarking>
+                <description></description>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P7</name>
+                <marking>0</marking>
+                <stringMarking>0</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>6.08</x>
+                  <y>1.8266666666666667</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>913</x>
+                  <y>277</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>0</initialStringMarking>
+                <description></description>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P8</name>
+                <marking>100</marking>
+                <stringMarking>Q3</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>7.166666666666667</x>
+                  <y>2.526666666666667</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>1061</x>
+                  <y>187</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>Q3</initialStringMarking>
+                <description></description>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P9</name>
+                <marking>0</marking>
+                <stringMarking>0</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>7.1066666666666665</x>
+                  <y>1.7933333333333332</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>1066</x>
+                  <y>270</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>0</initialStringMarking>
+                <description></description>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P10</name>
+                <marking>0</marking>
+                <stringMarking>0</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>8.066666666666666</x>
+                  <y>1.7933333333333332</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>1166</x>
+                  <y>280</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>0</initialStringMarking>
+                <description></description>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P11</name>
+                <marking>2</marking>
+                <stringMarking>C3</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>8.066666666666666</x>
+                  <y>1.12</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>1167</x>
+                  <y>190</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>C3</initialStringMarking>
+                <description></description>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P16</name>
+                <marking>10</marking>
+                <stringMarking>new_pods</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>3.8733333333333335</x>
+                  <y>0.7666666666666667</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>464</x>
+                  <y>181</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>new_pods</initialStringMarking>
+                <description></description>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P17</name>
+                <marking>10</marking>
+                <stringMarking>new_pods</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>6.08</x>
+                  <y>0.6733333333333333</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>790</x>
+                  <y>180</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>new_pods</initialStringMarking>
+                <description></description>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P18</name>
+                <marking>10</marking>
+                <stringMarking>new_pods</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>8.126666666666667</x>
+                  <y>0.5133333333333333</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>1095</x>
+                  <y>173</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>new_pods</initialStringMarking>
+                <description></description>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P19</name>
+                <marking>0</marking>
+                <stringMarking>0</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>3.1066666666666665</x>
+                  <y>0.7666666666666667</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>466</x>
+                  <y>116</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>0</initialStringMarking>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P20</name>
+                <marking>0</marking>
+                <stringMarking>0</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>5.346666666666667</x>
+                  <y>0.6733333333333333</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>804</x>
+                  <y>111</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>0</initialStringMarking>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P21</name>
+                <marking>0</marking>
+                <stringMarking>0</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>7.3933333333333335</x>
+                  <y>0.5466666666666666</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>1107</x>
+                  <y>85</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>0</initialStringMarking>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P23</name>
+                <marking>0</marking>
+                <stringMarking>0</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>1.0266666666666666</x>
+                  <y>1.9866666666666666</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>226</x>
+                  <y>136</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>0</initialStringMarking>
+                <description></description>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P24</name>
+                <marking>1</marking>
+                <stringMarking>1</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>0.16</x>
+                  <y>1.9866666666666666</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>32</x>
+                  <y>300</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>1</initialStringMarking>
+                <description></description>
+              </org.modcs.tools.spn.model.Place>
+              <org.modcs.tools.spn.model.Place>
+                <name>P25</name>
+                <marking>10</marking>
+                <stringMarking>10</stringMarking>
+                <positionPlace class="java.awt.geom.Point2D$Double">
+                  <x>1.7933333333333332</x>
+                  <y>1.9533333333333334</y>
+                </positionPlace>
+                <positionTag class="java.awt.Point">
+                  <x>269</x>
+                  <y>292</y>
+                </positionTag>
+                <edspn reference="../../.."/>
+                <initialStringMarking>10</initialStringMarking>
+                <description></description>
+              </org.modcs.tools.spn.model.Place>
+            </places>
+            <delayParameters/>
+            <transitions>
+              <org.modcs.tools.spn.model.TransitionExponential>
+                <name>TE1</name>
+                <firingPolicy>INFINITY_SERVER</firingPolicy>
+                <raceType>RACE_WITH_ENABLING_MEMORY</raceType>
+                <turned>false</turned>
+                <delay>0.0</delay>
+                <description></description>
+                <arcInputs>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[2]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[3]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                </arcInputs>
+                <arcOutputs>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../.."/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[4]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                </arcOutputs>
+                <positionTransition class="java.awt.geom.Point2D$Double">
+                  <x>3.3466666666666667</x>
+                  <y>1.6933333333333334</y>
+                </positionTransition>
+                <countRemaingInList>0</countRemaingInList>
+                <randomVariateGenerator class="org.modcs.tools.spn.simulator.randomvariates.ExponentialRandomVariateGenerator">
+                  <map>
+                    <entry>
+                      <string>Mean delay</string>
+                      <org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                        <ifelse>
+                          <stringCondition>t_aloc</stringCondition>
+                          <singleExpression>
+                            <realValue>
+                              <realParameter>
+                                <identifier>
+                                  <identifier>t_aloc</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </realParameter>
+                            </realValue>
+                          </singleExpression>
+                        </ifelse>
+                      </org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                    </entry>
+                  </map>
+                  <constructorDistributionOrder>
+                    <string>Mean delay</string>
+                  </constructorDistributionOrder>
+                  <paramNames reference="../constructorDistributionOrder"/>
+                  <disInitialValues>
+                    <double>0.0</double>
+                  </disInitialValues>
+                </randomVariateGenerator>
+                <stringLogicCondition></stringLogicCondition>
+                <priority>1</priority>
+                <stringPriority></stringPriority>
+              </org.modcs.tools.spn.model.TransitionExponential>
+              <org.modcs.tools.spn.model.TransitionExponential>
+                <name>TE2</name>
+                <firingPolicy>INFINITY_SERVER</firingPolicy>
+                <raceType>RACE_WITH_ENABLING_MEMORY</raceType>
+                <turned>false</turned>
+                <delay>0.0</delay>
+                <description></description>
+                <arcInputs>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[4]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[5]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                </arcInputs>
+                <arcOutputs>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[3]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[6]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                </arcOutputs>
+                <positionTransition class="java.awt.geom.Point2D$Double">
+                  <x>4.426666666666667</x>
+                  <y>1.6533333333333333</y>
+                </positionTransition>
+                <countRemaingInList>0</countRemaingInList>
+                <randomVariateGenerator class="org.modcs.tools.spn.simulator.randomvariates.ExponentialRandomVariateGenerator">
+                  <map>
+                    <entry>
+                      <string>Mean delay</string>
+                      <org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                        <ifelse>
+                          <stringCondition>t_proc</stringCondition>
+                          <singleExpression>
+                            <realValue>
+                              <realParameter>
+                                <identifier>
+                                  <identifier>t_proc</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </realParameter>
+                            </realValue>
+                          </singleExpression>
+                        </ifelse>
+                      </org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                    </entry>
+                  </map>
+                  <constructorDistributionOrder>
+                    <string>Mean delay</string>
+                  </constructorDistributionOrder>
+                  <paramNames reference="../constructorDistributionOrder"/>
+                  <disInitialValues>
+                    <double>0.0</double>
+                  </disInitialValues>
+                </randomVariateGenerator>
+                <stringLogicCondition></stringLogicCondition>
+                <priority>1</priority>
+                <stringPriority></stringPriority>
+              </org.modcs.tools.spn.model.TransitionExponential>
+              <org.modcs.tools.spn.model.TransitionExponential>
+                <name>TE3</name>
+                <firingPolicy>INFINITY_SERVER</firingPolicy>
+                <raceType>RACE_WITH_ENABLING_MEMORY</raceType>
+                <turned>false</turned>
+                <delay>0.0</delay>
+                <description></description>
+                <arcInputs>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[6]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[7]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                </arcInputs>
+                <arcOutputs>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[8]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[5]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                </arcOutputs>
+                <positionTransition class="java.awt.geom.Point2D$Double">
+                  <x>5.546666666666667</x>
+                  <y>1.6133333333333333</y>
+                </positionTransition>
+                <countRemaingInList>0</countRemaingInList>
+                <randomVariateGenerator class="org.modcs.tools.spn.simulator.randomvariates.ExponentialRandomVariateGenerator">
+                  <map>
+                    <entry>
+                      <string>Mean delay</string>
+                      <org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                        <ifelse>
+                          <stringCondition>t_aloc</stringCondition>
+                          <singleExpression>
+                            <realValue>
+                              <realParameter>
+                                <identifier>
+                                  <identifier>t_aloc</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </realParameter>
+                            </realValue>
+                          </singleExpression>
+                        </ifelse>
+                      </org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                    </entry>
+                  </map>
+                  <constructorDistributionOrder>
+                    <string>Mean delay</string>
+                  </constructorDistributionOrder>
+                  <paramNames reference="../constructorDistributionOrder"/>
+                  <disInitialValues>
+                    <double>0.0</double>
+                  </disInitialValues>
+                </randomVariateGenerator>
+                <stringLogicCondition></stringLogicCondition>
+                <priority>1</priority>
+                <stringPriority></stringPriority>
+              </org.modcs.tools.spn.model.TransitionExponential>
+              <org.modcs.tools.spn.model.TransitionExponential>
+                <name>TE4</name>
+                <firingPolicy>INFINITY_SERVER</firingPolicy>
+                <raceType>RACE_WITH_ENABLING_MEMORY</raceType>
+                <turned>false</turned>
+                <delay>0.0</delay>
+                <description></description>
+                <arcInputs>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[8]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[9]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                </arcInputs>
+                <arcOutputs>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[10]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[7]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                </arcOutputs>
+                <positionTransition class="java.awt.geom.Point2D$Double">
+                  <x>6.586666666666667</x>
+                  <y>1.6133333333333333</y>
+                </positionTransition>
+                <countRemaingInList>0</countRemaingInList>
+                <randomVariateGenerator class="org.modcs.tools.spn.simulator.randomvariates.ExponentialRandomVariateGenerator">
+                  <map>
+                    <entry>
+                      <string>Mean delay</string>
+                      <org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                        <ifelse>
+                          <stringCondition>t_proc</stringCondition>
+                          <singleExpression>
+                            <realValue>
+                              <realParameter>
+                                <identifier>
+                                  <identifier>t_proc</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </realParameter>
+                            </realValue>
+                          </singleExpression>
+                        </ifelse>
+                      </org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                    </entry>
+                  </map>
+                  <constructorDistributionOrder>
+                    <string>Mean delay</string>
+                  </constructorDistributionOrder>
+                  <paramNames reference="../constructorDistributionOrder"/>
+                  <disInitialValues>
+                    <double>0.0</double>
+                  </disInitialValues>
+                </randomVariateGenerator>
+                <stringLogicCondition></stringLogicCondition>
+                <priority>1</priority>
+                <stringPriority></stringPriority>
+              </org.modcs.tools.spn.model.TransitionExponential>
+              <org.modcs.tools.spn.model.TransitionExponential>
+                <name>TE5</name>
+                <firingPolicy>INFINITY_SERVER</firingPolicy>
+                <raceType>RACE_WITH_ENABLING_MEMORY</raceType>
+                <turned>false</turned>
+                <delay>0.0</delay>
+                <description></description>
+                <arcInputs>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[10]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[12]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                </arcInputs>
+                <arcOutputs>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[11]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[9]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                </arcOutputs>
+                <positionTransition class="java.awt.geom.Point2D$Double">
+                  <x>7.586666666666667</x>
+                  <y>1.5333333333333334</y>
+                </positionTransition>
+                <countRemaingInList>0</countRemaingInList>
+                <randomVariateGenerator class="org.modcs.tools.spn.simulator.randomvariates.ExponentialRandomVariateGenerator">
+                  <map>
+                    <entry>
+                      <string>Mean delay</string>
+                      <org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                        <ifelse>
+                          <stringCondition>t_aloc</stringCondition>
+                          <singleExpression>
+                            <realValue>
+                              <realParameter>
+                                <identifier>
+                                  <identifier>t_aloc</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </realParameter>
+                            </realValue>
+                          </singleExpression>
+                        </ifelse>
+                      </org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                    </entry>
+                  </map>
+                  <constructorDistributionOrder>
+                    <string>Mean delay</string>
+                  </constructorDistributionOrder>
+                  <paramNames reference="../constructorDistributionOrder"/>
+                  <disInitialValues>
+                    <double>0.0</double>
+                  </disInitialValues>
+                </randomVariateGenerator>
+                <stringLogicCondition></stringLogicCondition>
+                <priority>1</priority>
+                <stringPriority></stringPriority>
+              </org.modcs.tools.spn.model.TransitionExponential>
+              <org.modcs.tools.spn.model.TransitionExponential>
+                <name>TE6</name>
+                <firingPolicy>INFINITY_SERVER</firingPolicy>
+                <raceType>RACE_WITH_ENABLING_MEMORY</raceType>
+                <turned>false</turned>
+                <delay>0.0</delay>
+                <description></description>
+                <arcInputs>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[11]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                </arcInputs>
+                <arcOutputs>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[12]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                </arcOutputs>
+                <positionTransition class="java.awt.geom.Point2D$Double">
+                  <x>8.586666666666666</x>
+                  <y>1.5733333333333333</y>
+                </positionTransition>
+                <countRemaingInList>0</countRemaingInList>
+                <randomVariateGenerator class="org.modcs.tools.spn.simulator.randomvariates.ExponentialRandomVariateGenerator">
+                  <map>
+                    <entry>
+                      <string>Mean delay</string>
+                      <org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                        <ifelse>
+                          <stringCondition>t_proc</stringCondition>
+                          <singleExpression>
+                            <realValue>
+                              <realParameter>
+                                <identifier>
+                                  <identifier>t_proc</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </realParameter>
+                            </realValue>
+                          </singleExpression>
+                        </ifelse>
+                      </org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                    </entry>
+                  </map>
+                  <constructorDistributionOrder>
+                    <string>Mean delay</string>
+                  </constructorDistributionOrder>
+                  <paramNames reference="../constructorDistributionOrder"/>
+                  <disInitialValues>
+                    <double>0.0</double>
+                  </disInitialValues>
+                </randomVariateGenerator>
+                <stringLogicCondition></stringLogicCondition>
+                <priority>1</priority>
+                <stringPriority></stringPriority>
+              </org.modcs.tools.spn.model.TransitionExponential>
+              <org.modcs.tools.spn.model.TransitionExponential>
+                <name>TE7</name>
+                <firingPolicy>SINGLE_SERVER</firingPolicy>
+                <raceType>RACE_WITH_ENABLING_MEMORY</raceType>
+                <turned>false</turned>
+                <delay>0.0</delay>
+                <description></description>
+                <arcOutputs>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[21]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                </arcOutputs>
+                <arcInhibitors>
+                  <org.modcs.tools.spn.model.ArcInhibitor>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[19]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInhibitor>
+                </arcInhibitors>
+                <positionTransition class="java.awt.geom.Point2D$Double">
+                  <x>1.5066666666666666</x>
+                  <y>1.2933333333333332</y>
+                </positionTransition>
+                <countRemaingInList>0</countRemaingInList>
+                <randomVariateGenerator class="org.modcs.tools.spn.simulator.randomvariates.ExponentialRandomVariateGenerator">
+                  <map>
+                    <entry>
+                      <string>Mean delay</string>
+                      <org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                        <ifelse>
+                          <stringCondition>AD_FREE</stringCondition>
+                          <singleExpression>
+                            <realValue>
+                              <realParameter>
+                                <identifier>
+                                  <identifier>AD_FREE</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </realParameter>
+                            </realValue>
+                          </singleExpression>
+                        </ifelse>
+                      </org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                    </entry>
+                  </map>
+                  <constructorDistributionOrder>
+                    <string>Mean delay</string>
+                  </constructorDistributionOrder>
+                  <paramNames reference="../constructorDistributionOrder"/>
+                  <disInitialValues>
+                    <double>0.0</double>
+                  </disInitialValues>
+                </randomVariateGenerator>
+                <stringLogicCondition></stringLogicCondition>
+                <priority>1</priority>
+                <stringPriority></stringPriority>
+              </org.modcs.tools.spn.model.TransitionExponential>
+              <org.modcs.tools.spn.model.TransitionImmediate>
+                <name>TI3</name>
+                <firingPolicy>SINGLE_SERVER</firingPolicy>
+                <raceType>RACE_WITH_ENABLING_MEMORY</raceType>
+                <turned>false</turned>
+                <delay>0.0</delay>
+                <description></description>
+                <arcInputs>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[13]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionImmediate" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                </arcInputs>
+                <arcOutputs>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[16]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionImmediate" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                </arcOutputs>
+                <positionTransition class="java.awt.geom.Point2D$Double">
+                  <x>3.466666666666667</x>
+                  <y>0.5333333333333333</y>
+                </positionTransition>
+                <countRemaingInList>0</countRemaingInList>
+                <priority>1</priority>
+                <stringPriority></stringPriority>
+                <weight>1.0</weight>
+                <logicCondition>
+                  <logicConditionLeft>
+                    <comparison>
+                      <markingFunctionLeft>
+                        <markingFunctionLeft>
+                          <integerValue>
+                            <marking>
+                              <placeName>
+                                <identifier>
+                                  <identifier>P1</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </placeName>
+                              <place reference="../../../../../../../../../../places/org.modcs.tools.spn.model.Place[2]"/>
+                            </marking>
+                          </integerValue>
+                        </markingFunctionLeft>
+                        <numericOperator>
+                          <operator>*</operator>
+                        </numericOperator>
+                        <markingFunctionRight>
+                          <integerValue>
+                            <integerConstant>
+                              <integer>100</integer>
+                            </integerConstant>
+                          </integerValue>
+                        </markingFunctionRight>
+                      </markingFunctionLeft>
+                      <comparisonOperator>
+                        <operator>&gt;</operator>
+                      </comparisonOperator>
+                      <markingFunctionRight>
+                        <markingFunctionLeft>
+                          <integerValue>
+                            <integerParameter>
+                              <identifier>
+                                <identifier>Q1</identifier>
+                                <showedMessage>false</showedMessage>
+                              </identifier>
+                            </integerParameter>
+                          </integerValue>
+                        </markingFunctionLeft>
+                        <numericOperator>
+                          <operator>*</operator>
+                        </numericOperator>
+                        <markingFunctionRight>
+                          <integerValue>
+                            <integerParameter>
+                              <identifier>
+                                <identifier>percent</identifier>
+                                <showedMessage>false</showedMessage>
+                              </identifier>
+                            </integerParameter>
+                          </integerValue>
+                        </markingFunctionRight>
+                      </markingFunctionRight>
+                    </comparison>
+                  </logicConditionLeft>
+                  <logicOperator>
+                    <operator>AND</operator>
+                  </logicOperator>
+                  <logicConditionRight>
+                    <logicConditionLeft>
+                      <comparison>
+                        <markingFunctionLeft>
+                          <integerValue>
+                            <integerParameter>
+                              <identifier>
+                                <identifier>percent</identifier>
+                                <showedMessage>false</showedMessage>
+                              </identifier>
+                            </integerParameter>
+                          </integerValue>
+                        </markingFunctionLeft>
+                        <comparisonOperator>
+                          <operator>&gt;</operator>
+                        </comparisonOperator>
+                        <markingFunctionRight>
+                          <integerValue>
+                            <integerConstant>
+                              <integer>0</integer>
+                            </integerConstant>
+                          </integerValue>
+                        </markingFunctionRight>
+                      </comparison>
+                    </logicConditionLeft>
+                    <logicOperator>
+                      <operator>AND</operator>
+                    </logicOperator>
+                    <logicConditionRight>
+                      <logicConditionLeft>
+                        <comparison>
+                          <markingFunctionLeft>
+                            <integerValue>
+                              <integerParameter>
+                                <identifier>
+                                  <identifier>time_injection</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </integerParameter>
+                            </integerValue>
+                          </markingFunctionLeft>
+                          <comparisonOperator>
+                            <operator>&gt;</operator>
+                          </comparisonOperator>
+                          <markingFunctionRight>
+                            <integerValue>
+                              <integerConstant>
+                                <integer>0</integer>
+                              </integerConstant>
+                            </integerValue>
+                          </markingFunctionRight>
+                        </comparison>
+                      </logicConditionLeft>
+                      <logicOperator>
+                        <operator>AND</operator>
+                      </logicOperator>
+                      <logicConditionRight>
+                        <comparison>
+                          <markingFunctionLeft>
+                            <integerValue>
+                              <integerParameter>
+                                <identifier>
+                                  <identifier>new_pods</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </integerParameter>
+                            </integerValue>
+                          </markingFunctionLeft>
+                          <comparisonOperator>
+                            <operator>&gt;</operator>
+                          </comparisonOperator>
+                          <markingFunctionRight>
+                            <integerValue>
+                              <integerConstant>
+                                <integer>0</integer>
+                              </integerConstant>
+                            </integerValue>
+                          </markingFunctionRight>
+                        </comparison>
+                      </logicConditionRight>
+                    </logicConditionRight>
+                  </logicConditionRight>
+                </logicCondition>
+                <stringLogicCondition>(#P1*100&gt;Q1*percent)AND(percent&gt;0)AND(time_injection&gt;0)AND(new_pods&gt;0)</stringLogicCondition>
+              </org.modcs.tools.spn.model.TransitionImmediate>
+              <org.modcs.tools.spn.model.TransitionImmediate>
+                <name>TI5</name>
+                <firingPolicy>SINGLE_SERVER</firingPolicy>
+                <raceType>RACE_WITH_ENABLING_MEMORY</raceType>
+                <turned>false</turned>
+                <delay>0.0</delay>
+                <description></description>
+                <arcInputs>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[14]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionImmediate" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                </arcInputs>
+                <arcOutputs>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[17]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionImmediate" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                </arcOutputs>
+                <positionTransition class="java.awt.geom.Point2D$Double">
+                  <x>5.706666666666667</x>
+                  <y>0.4533333333333333</y>
+                </positionTransition>
+                <countRemaingInList>0</countRemaingInList>
+                <priority>1</priority>
+                <stringPriority></stringPriority>
+                <weight>1.0</weight>
+                <logicCondition>
+                  <logicConditionLeft>
+                    <comparison>
+                      <markingFunctionLeft>
+                        <markingFunctionLeft>
+                          <integerValue>
+                            <marking>
+                              <placeName>
+                                <identifier>
+                                  <identifier>P5</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </placeName>
+                              <place reference="../../../../../../../../../../places/org.modcs.tools.spn.model.Place[6]"/>
+                            </marking>
+                          </integerValue>
+                        </markingFunctionLeft>
+                        <numericOperator>
+                          <operator>*</operator>
+                        </numericOperator>
+                        <markingFunctionRight>
+                          <integerValue>
+                            <integerConstant>
+                              <integer>100</integer>
+                            </integerConstant>
+                          </integerValue>
+                        </markingFunctionRight>
+                      </markingFunctionLeft>
+                      <comparisonOperator>
+                        <operator>&gt;</operator>
+                      </comparisonOperator>
+                      <markingFunctionRight>
+                        <markingFunctionLeft>
+                          <integerValue>
+                            <integerParameter>
+                              <identifier>
+                                <identifier>Q2</identifier>
+                                <showedMessage>false</showedMessage>
+                              </identifier>
+                            </integerParameter>
+                          </integerValue>
+                        </markingFunctionLeft>
+                        <numericOperator>
+                          <operator>*</operator>
+                        </numericOperator>
+                        <markingFunctionRight>
+                          <integerValue>
+                            <integerParameter>
+                              <identifier>
+                                <identifier>percent</identifier>
+                                <showedMessage>false</showedMessage>
+                              </identifier>
+                            </integerParameter>
+                          </integerValue>
+                        </markingFunctionRight>
+                      </markingFunctionRight>
+                    </comparison>
+                  </logicConditionLeft>
+                  <logicOperator>
+                    <operator>AND</operator>
+                  </logicOperator>
+                  <logicConditionRight>
+                    <logicConditionLeft>
+                      <comparison>
+                        <markingFunctionLeft>
+                          <integerValue>
+                            <integerParameter>
+                              <identifier>
+                                <identifier>percent</identifier>
+                                <showedMessage>false</showedMessage>
+                              </identifier>
+                            </integerParameter>
+                          </integerValue>
+                        </markingFunctionLeft>
+                        <comparisonOperator>
+                          <operator>&gt;</operator>
+                        </comparisonOperator>
+                        <markingFunctionRight>
+                          <integerValue>
+                            <integerConstant>
+                              <integer>0</integer>
+                            </integerConstant>
+                          </integerValue>
+                        </markingFunctionRight>
+                      </comparison>
+                    </logicConditionLeft>
+                    <logicOperator>
+                      <operator>AND</operator>
+                    </logicOperator>
+                    <logicConditionRight>
+                      <logicConditionLeft>
+                        <comparison>
+                          <markingFunctionLeft>
+                            <integerValue>
+                              <integerParameter>
+                                <identifier>
+                                  <identifier>time_injection</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </integerParameter>
+                            </integerValue>
+                          </markingFunctionLeft>
+                          <comparisonOperator>
+                            <operator>&gt;</operator>
+                          </comparisonOperator>
+                          <markingFunctionRight>
+                            <integerValue>
+                              <integerConstant>
+                                <integer>0</integer>
+                              </integerConstant>
+                            </integerValue>
+                          </markingFunctionRight>
+                        </comparison>
+                      </logicConditionLeft>
+                      <logicOperator>
+                        <operator>AND</operator>
+                      </logicOperator>
+                      <logicConditionRight>
+                        <comparison>
+                          <markingFunctionLeft>
+                            <integerValue>
+                              <integerParameter>
+                                <identifier>
+                                  <identifier>new_pods</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </integerParameter>
+                            </integerValue>
+                          </markingFunctionLeft>
+                          <comparisonOperator>
+                            <operator>&gt;</operator>
+                          </comparisonOperator>
+                          <markingFunctionRight>
+                            <integerValue>
+                              <integerConstant>
+                                <integer>0</integer>
+                              </integerConstant>
+                            </integerValue>
+                          </markingFunctionRight>
+                        </comparison>
+                      </logicConditionRight>
+                    </logicConditionRight>
+                  </logicConditionRight>
+                </logicCondition>
+                <stringLogicCondition>(#P5*100&gt;Q2*percent)AND(percent&gt;0)AND(time_injection&gt;0)AND(new_pods&gt;0)</stringLogicCondition>
+              </org.modcs.tools.spn.model.TransitionImmediate>
+              <org.modcs.tools.spn.model.TransitionImmediate>
+                <name>TI7</name>
+                <firingPolicy>SINGLE_SERVER</firingPolicy>
+                <raceType>RACE_WITH_ENABLING_MEMORY</raceType>
+                <turned>false</turned>
+                <delay>0.0</delay>
+                <description></description>
+                <arcInputs>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[15]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionImmediate" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                </arcInputs>
+                <arcOutputs>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[18]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionImmediate" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                </arcOutputs>
+                <positionTransition class="java.awt.geom.Point2D$Double">
+                  <x>7.746666666666667</x>
+                  <y>0.29333333333333333</y>
+                </positionTransition>
+                <countRemaingInList>0</countRemaingInList>
+                <priority>1</priority>
+                <stringPriority></stringPriority>
+                <weight>1.0</weight>
+                <logicCondition>
+                  <logicConditionLeft>
+                    <comparison>
+                      <markingFunctionLeft>
+                        <markingFunctionLeft>
+                          <integerValue>
+                            <marking>
+                              <placeName>
+                                <identifier>
+                                  <identifier>P9</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </placeName>
+                              <place reference="../../../../../../../../../../places/org.modcs.tools.spn.model.Place[10]"/>
+                            </marking>
+                          </integerValue>
+                        </markingFunctionLeft>
+                        <numericOperator>
+                          <operator>*</operator>
+                        </numericOperator>
+                        <markingFunctionRight>
+                          <integerValue>
+                            <integerConstant>
+                              <integer>100</integer>
+                            </integerConstant>
+                          </integerValue>
+                        </markingFunctionRight>
+                      </markingFunctionLeft>
+                      <comparisonOperator>
+                        <operator>&gt;</operator>
+                      </comparisonOperator>
+                      <markingFunctionRight>
+                        <markingFunctionLeft>
+                          <integerValue>
+                            <integerParameter>
+                              <identifier>
+                                <identifier>Q3</identifier>
+                                <showedMessage>false</showedMessage>
+                              </identifier>
+                            </integerParameter>
+                          </integerValue>
+                        </markingFunctionLeft>
+                        <numericOperator>
+                          <operator>*</operator>
+                        </numericOperator>
+                        <markingFunctionRight>
+                          <integerValue>
+                            <integerParameter>
+                              <identifier>
+                                <identifier>percent</identifier>
+                                <showedMessage>false</showedMessage>
+                              </identifier>
+                            </integerParameter>
+                          </integerValue>
+                        </markingFunctionRight>
+                      </markingFunctionRight>
+                    </comparison>
+                  </logicConditionLeft>
+                  <logicOperator>
+                    <operator>AND</operator>
+                  </logicOperator>
+                  <logicConditionRight>
+                    <logicConditionLeft>
+                      <comparison>
+                        <markingFunctionLeft>
+                          <integerValue>
+                            <integerParameter>
+                              <identifier>
+                                <identifier>percent</identifier>
+                                <showedMessage>false</showedMessage>
+                              </identifier>
+                            </integerParameter>
+                          </integerValue>
+                        </markingFunctionLeft>
+                        <comparisonOperator>
+                          <operator>&gt;</operator>
+                        </comparisonOperator>
+                        <markingFunctionRight>
+                          <integerValue>
+                            <integerConstant>
+                              <integer>0</integer>
+                            </integerConstant>
+                          </integerValue>
+                        </markingFunctionRight>
+                      </comparison>
+                    </logicConditionLeft>
+                    <logicOperator>
+                      <operator>AND</operator>
+                    </logicOperator>
+                    <logicConditionRight>
+                      <logicConditionLeft>
+                        <comparison>
+                          <markingFunctionLeft>
+                            <integerValue>
+                              <integerParameter>
+                                <identifier>
+                                  <identifier>time_injection</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </integerParameter>
+                            </integerValue>
+                          </markingFunctionLeft>
+                          <comparisonOperator>
+                            <operator>&gt;</operator>
+                          </comparisonOperator>
+                          <markingFunctionRight>
+                            <integerValue>
+                              <integerConstant>
+                                <integer>0</integer>
+                              </integerConstant>
+                            </integerValue>
+                          </markingFunctionRight>
+                        </comparison>
+                      </logicConditionLeft>
+                      <logicOperator>
+                        <operator>AND</operator>
+                      </logicOperator>
+                      <logicConditionRight>
+                        <comparison>
+                          <markingFunctionLeft>
+                            <integerValue>
+                              <integerParameter>
+                                <identifier>
+                                  <identifier>new_pods</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </integerParameter>
+                            </integerValue>
+                          </markingFunctionLeft>
+                          <comparisonOperator>
+                            <operator>&gt;</operator>
+                          </comparisonOperator>
+                          <markingFunctionRight>
+                            <integerValue>
+                              <integerConstant>
+                                <integer>0</integer>
+                              </integerConstant>
+                            </integerValue>
+                          </markingFunctionRight>
+                        </comparison>
+                      </logicConditionRight>
+                    </logicConditionRight>
+                  </logicConditionRight>
+                </logicCondition>
+                <stringLogicCondition>(#P9*100&gt;Q3*percent)AND(percent&gt;0)AND(time_injection&gt;0)AND(new_pods&gt;0)</stringLogicCondition>
+              </org.modcs.tools.spn.model.TransitionImmediate>
+              <org.modcs.tools.spn.model.TransitionExponential>
+                <name>TE8</name>
+                <firingPolicy>SINGLE_SERVER</firingPolicy>
+                <raceType>RACE_WITH_ENABLING_MEMORY</raceType>
+                <turned>false</turned>
+                <delay>0.0</delay>
+                <description></description>
+                <arcInputs>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[16]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                </arcInputs>
+                <arcOutputs>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[3]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                </arcOutputs>
+                <positionTransition class="java.awt.geom.Point2D$Double">
+                  <x>3.1466666666666665</x>
+                  <y>1.0133333333333334</y>
+                </positionTransition>
+                <countRemaingInList>0</countRemaingInList>
+                <randomVariateGenerator class="org.modcs.tools.spn.simulator.randomvariates.ExponentialRandomVariateGenerator">
+                  <map>
+                    <entry>
+                      <string>Mean delay</string>
+                      <org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                        <ifelse>
+                          <stringCondition>time_injection</stringCondition>
+                          <singleExpression>
+                            <realValue>
+                              <realParameter>
+                                <identifier>
+                                  <identifier>time_injection</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </realParameter>
+                            </realValue>
+                          </singleExpression>
+                        </ifelse>
+                      </org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                    </entry>
+                  </map>
+                  <constructorDistributionOrder>
+                    <string>Mean delay</string>
+                  </constructorDistributionOrder>
+                  <paramNames reference="../constructorDistributionOrder"/>
+                  <disInitialValues>
+                    <double>0.0</double>
+                  </disInitialValues>
+                </randomVariateGenerator>
+                <stringLogicCondition></stringLogicCondition>
+                <priority>1</priority>
+                <stringPriority></stringPriority>
+              </org.modcs.tools.spn.model.TransitionExponential>
+              <org.modcs.tools.spn.model.TransitionExponential>
+                <name>TE9</name>
+                <firingPolicy>SINGLE_SERVER</firingPolicy>
+                <raceType>RACE_WITH_ENABLING_MEMORY</raceType>
+                <turned>false</turned>
+                <delay>0.0</delay>
+                <description></description>
+                <arcInputs>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[17]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                </arcInputs>
+                <arcOutputs>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[7]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                </arcOutputs>
+                <positionTransition class="java.awt.geom.Point2D$Double">
+                  <x>5.346666666666667</x>
+                  <y>0.9733333333333334</y>
+                </positionTransition>
+                <countRemaingInList>0</countRemaingInList>
+                <randomVariateGenerator class="org.modcs.tools.spn.simulator.randomvariates.ExponentialRandomVariateGenerator">
+                  <map>
+                    <entry>
+                      <string>Mean delay</string>
+                      <org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                        <ifelse>
+                          <stringCondition>time_injection</stringCondition>
+                          <singleExpression>
+                            <realValue>
+                              <realParameter>
+                                <identifier>
+                                  <identifier>time_injection</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </realParameter>
+                            </realValue>
+                          </singleExpression>
+                        </ifelse>
+                      </org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                    </entry>
+                  </map>
+                  <constructorDistributionOrder>
+                    <string>Mean delay</string>
+                  </constructorDistributionOrder>
+                  <paramNames reference="../constructorDistributionOrder"/>
+                  <disInitialValues>
+                    <double>0.0</double>
+                  </disInitialValues>
+                </randomVariateGenerator>
+                <stringLogicCondition></stringLogicCondition>
+                <priority>1</priority>
+                <stringPriority></stringPriority>
+              </org.modcs.tools.spn.model.TransitionExponential>
+              <org.modcs.tools.spn.model.TransitionExponential>
+                <name>TE10</name>
+                <firingPolicy>SINGLE_SERVER</firingPolicy>
+                <raceType>RACE_WITH_ENABLING_MEMORY</raceType>
+                <turned>false</turned>
+                <delay>0.0</delay>
+                <description></description>
+                <arcInputs>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[18]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                </arcInputs>
+                <arcOutputs>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[12]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                </arcOutputs>
+                <positionTransition class="java.awt.geom.Point2D$Double">
+                  <x>7.346666666666667</x>
+                  <y>0.8933333333333333</y>
+                </positionTransition>
+                <countRemaingInList>0</countRemaingInList>
+                <randomVariateGenerator class="org.modcs.tools.spn.simulator.randomvariates.ExponentialRandomVariateGenerator">
+                  <map>
+                    <entry>
+                      <string>Mean delay</string>
+                      <org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                        <ifelse>
+                          <stringCondition>time_injection</stringCondition>
+                          <singleExpression>
+                            <realValue>
+                              <realParameter>
+                                <identifier>
+                                  <identifier>time_injection</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </realParameter>
+                            </realValue>
+                          </singleExpression>
+                        </ifelse>
+                      </org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                    </entry>
+                  </map>
+                  <constructorDistributionOrder>
+                    <string>Mean delay</string>
+                  </constructorDistributionOrder>
+                  <paramNames reference="../constructorDistributionOrder"/>
+                  <disInitialValues>
+                    <double>0.0</double>
+                  </disInitialValues>
+                </randomVariateGenerator>
+                <stringLogicCondition></stringLogicCondition>
+                <priority>1</priority>
+                <stringPriority></stringPriority>
+              </org.modcs.tools.spn.model.TransitionExponential>
+              <org.modcs.tools.spn.model.TransitionExponential>
+                <name>TE11</name>
+                <firingPolicy>SINGLE_SERVER</firingPolicy>
+                <raceType>RACE_WITH_ENABLING_MEMORY</raceType>
+                <turned>false</turned>
+                <delay>0.0</delay>
+                <description></description>
+                <arcInputs>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[20]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                </arcInputs>
+                <arcOutputs>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[19]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                </arcOutputs>
+                <positionTransition class="java.awt.geom.Point2D$Double">
+                  <x>0.5066666666666667</x>
+                  <y>1.7733333333333334</y>
+                </positionTransition>
+                <countRemaingInList>0</countRemaingInList>
+                <randomVariateGenerator class="org.modcs.tools.spn.simulator.randomvariates.DeterministicRandomVariateGenerator">
+                  <map>
+                    <entry>
+                      <string>Value</string>
+                      <org.modcs.tools.spn.simulator.randomvariates.DefaulRandomParameterProvider>
+                        <value>100.0</value>
+                      </org.modcs.tools.spn.simulator.randomvariates.DefaulRandomParameterProvider>
+                    </entry>
+                  </map>
+                  <constructorDistributionOrder>
+                    <string>Value</string>
+                  </constructorDistributionOrder>
+                  <paramNames reference="../constructorDistributionOrder"/>
+                  <disInitialValues>
+                    <double>1.0</double>
+                  </disInitialValues>
+                </randomVariateGenerator>
+                <stringLogicCondition></stringLogicCondition>
+                <priority>1</priority>
+                <stringPriority></stringPriority>
+              </org.modcs.tools.spn.model.TransitionExponential>
+              <org.modcs.tools.spn.model.TransitionExponential>
+                <name>TE12</name>
+                <firingPolicy>SINGLE_SERVER</firingPolicy>
+                <raceType>RACE_WITH_ENABLING_MEMORY</raceType>
+                <turned>false</turned>
+                <delay>0.0</delay>
+                <description></description>
+                <arcInputs>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[19]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                </arcInputs>
+                <arcOutputs>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[19]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[21]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionExponential" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                </arcOutputs>
+                <positionTransition class="java.awt.geom.Point2D$Double">
+                  <x>1.5066666666666666</x>
+                  <y>2.013333333333333</y>
+                </positionTransition>
+                <countRemaingInList>0</countRemaingInList>
+                <randomVariateGenerator class="org.modcs.tools.spn.simulator.randomvariates.ExponentialRandomVariateGenerator">
+                  <map>
+                    <entry>
+                      <string>Mean delay</string>
+                      <org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                        <ifelse>
+                          <stringCondition>AD_ATACK</stringCondition>
+                          <singleExpression>
+                            <realValue>
+                              <realParameter>
+                                <identifier>
+                                  <identifier>AD_ATACK</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </realParameter>
+                            </realValue>
+                          </singleExpression>
+                        </ifelse>
+                      </org.modcs.tools.spn.gui.IRandomParameterProviderImpl>
+                    </entry>
+                  </map>
+                  <constructorDistributionOrder>
+                    <string>Mean delay</string>
+                  </constructorDistributionOrder>
+                  <paramNames reference="../constructorDistributionOrder"/>
+                  <disInitialValues>
+                    <double>0.0</double>
+                  </disInitialValues>
+                </randomVariateGenerator>
+                <stringLogicCondition></stringLogicCondition>
+                <priority>1</priority>
+                <stringPriority></stringPriority>
+              </org.modcs.tools.spn.model.TransitionExponential>
+              <org.modcs.tools.spn.model.TransitionImmediate>
+                <name>TI8</name>
+                <firingPolicy>SINGLE_SERVER</firingPolicy>
+                <raceType>RACE_WITH_ENABLING_MEMORY</raceType>
+                <turned>false</turned>
+                <delay>0.0</delay>
+                <arcInputs>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[21]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionImmediate" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                  <org.modcs.tools.spn.model.ArcInput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../.."/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionImmediate" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcInput>
+                </arcInputs>
+                <arcOutputs>
+                  <org.modcs.tools.spn.model.ArcOutput>
+                    <lineStyle>12</lineStyle>
+                    <place reference="../../../../../places/org.modcs.tools.spn.model.Place[2]"/>
+                    <multiplicity>1</multiplicity>
+                    <transition class="org.modcs.tools.spn.model.TransitionImmediate" reference="../../.."/>
+                  </org.modcs.tools.spn.model.ArcOutput>
+                </arcOutputs>
+                <positionTransition class="java.awt.geom.Point2D$Double">
+                  <x>2.066666666666667</x>
+                  <y>1.6933333333333334</y>
+                </positionTransition>
+                <countRemaingInList>0</countRemaingInList>
+                <priority>1</priority>
+                <weight>1.0</weight>
+              </org.modcs.tools.spn.model.TransitionImmediate>
+            </transitions>
+            <labelModels>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P0</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>3.0714285714285716</x>
+                  <y>3.0866666666666664</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P1</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>3.0314285714285716</x>
+                  <y>2.2933333333333334</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P2</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>4.0</x>
+                  <y>1.54</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P3</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>3.951428571428571</x>
+                  <y>2.2133333333333334</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P4</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>5.171428571428571</x>
+                  <y>2.92</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P5</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>5.204761904761904</x>
+                  <y>2.18</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P6</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>6.131428571428571</x>
+                  <y>1.5066666666666666</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P7</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>6.178095238095238</x>
+                  <y>2.1466666666666665</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P8</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>7.244761904761905</x>
+                  <y>2.8266666666666667</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P9</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>7.198095238095238</x>
+                  <y>2.1</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P10</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>8.171428571428573</x>
+                  <y>2.0866666666666664</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P11</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>8.13809523809524</x>
+                  <y>1.4066666666666667</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>TE1</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>3.4447619047619042</x>
+                  <y>2.2733333333333334</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>TE2</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>4.504761904761905</x>
+                  <y>2.22</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>TE3</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>5.618095238095238</x>
+                  <y>2.1666666666666665</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>TE4</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>6.664761904761904</x>
+                  <y>2.16</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>TE5</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>7.664761904761905</x>
+                  <y>2.1</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>TE6</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>8.691428571428572</x>
+                  <y>2.1333333333333333</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>TE7</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>1.5914285714285714</x>
+                  <y>1.8866666666666667</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>TI3</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>3.5809523809523807</x>
+                  <y>1.0866666666666667</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>TI5</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>5.80095238095238</x>
+                  <y>1.0333333333333334</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>TI7</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>7.834285714285714</x>
+                  <y>0.86</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P16</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>3.971428571428571</x>
+                  <y>1.0666666666666667</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P17</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>6.144761904761904</x>
+                  <y>0.98</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P18</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>8.178095238095239</x>
+                  <y>0.8133333333333334</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>TE8</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>3.244761904761905</x>
+                  <y>1.58</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>TE9</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>5.4314285714285715</x>
+                  <y>1.5466666666666666</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>TE10</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>7.418095238095239</x>
+                  <y>1.4533333333333334</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P19</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>3.184761904761905</x>
+                  <y>1.0733333333333333</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P20</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>5.438095238095237</x>
+                  <y>0.96</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P21</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>7.458095238095239</x>
+                  <y>0.8666666666666667</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>TE11</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>0.5914285714285715</x>
+                  <y>2.3533333333333335</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P23</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>1.1047619047619048</x>
+                  <y>2.2866666666666666</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>TE12</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>1.5914285714285714</x>
+                  <y>2.56</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P24</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>0.25142857142857145</x>
+                  <y>2.3</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>TI8</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>2.167619047619048</x>
+                  <y>2.24</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+              <org.modcs.tools.spn.model.LabelModel>
+                <name>P25</name>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>1.8714285714285714</x>
+                  <y>2.2466666666666666</y>
+                </position>
+              </org.modcs.tools.spn.model.LabelModel>
+            </labelModels>
+            <rewardMeasures>
+              <org.modcs.tools.spn.model.RewardMeasure>
+                <name>U1</name>
+                <expression>
+                  <leftExpression>
+                    <leftExpression>
+                      <realValue>
+                        <rewItem>
+                          <expectation>
+                            <markingFunction>
+                              <integerValue>
+                                <marking>
+                                  <placeName>
+                                    <identifier>
+                                      <identifier>P1</identifier>
+                                      <showedMessage>false</showedMessage>
+                                    </identifier>
+                                  </placeName>
+                                </marking>
+                              </integerValue>
+                            </markingFunction>
+                            <listTokensAndTime/>
+                            <totalTime>0.0</totalTime>
+                          </expectation>
+                        </rewItem>
+                      </realValue>
+                    </leftExpression>
+                    <numericOperator>
+                      <operator>/</operator>
+                    </numericOperator>
+                    <rigthExpression>
+                      <realValue>
+                        <realParameter>
+                          <identifier>
+                            <identifier>Q1</identifier>
+                            <showedMessage>false</showedMessage>
+                          </identifier>
+                        </realParameter>
+                      </realValue>
+                    </rigthExpression>
+                  </leftExpression>
+                  <numericOperator>
+                    <operator>*</operator>
+                  </numericOperator>
+                  <rigthExpression>
+                    <realValue>
+                      <realConstant>
+                        <real>100</real>
+                      </realConstant>
+                    </realValue>
+                  </rigthExpression>
+                </expression>
+                <stringExpression>(E{#P1}/Q1)*100</stringExpression>
+                <value>8.142800897464324</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>3.1666666666666665</x>
+                  <y>0.12666666666666668</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.RewardMeasure>
+              <org.modcs.tools.spn.model.RewardMeasure>
+                <name>EC</name>
+                <expression>
+                  <leftExpression>
+                    <leftExpression>
+                      <realValue>
+                        <rewItem>
+                          <expectation>
+                            <markingFunction>
+                              <integerValue>
+                                <marking>
+                                  <placeName>
+                                    <identifier>
+                                      <identifier>P5</identifier>
+                                      <showedMessage>false</showedMessage>
+                                    </identifier>
+                                  </placeName>
+                                </marking>
+                              </integerValue>
+                            </markingFunction>
+                            <listTokensAndTime/>
+                            <totalTime>0.0</totalTime>
+                          </expectation>
+                        </rewItem>
+                      </realValue>
+                    </leftExpression>
+                    <numericOperator>
+                      <operator>*</operator>
+                    </numericOperator>
+                    <rigthExpression>
+                      <leftExpression>
+                        <realValue>
+                          <realParameter>
+                            <identifier>
+                              <identifier>E_OP_CP</identifier>
+                              <showedMessage>false</showedMessage>
+                            </identifier>
+                          </realParameter>
+                        </realValue>
+                      </leftExpression>
+                      <numericOperator>
+                        <operator>+</operator>
+                      </numericOperator>
+                      <rigthExpression>
+                        <leftExpression>
+                          <realValue>
+                            <rewItem>
+                              <expectation>
+                                <markingFunction>
+                                  <integerValue>
+                                    <marking>
+                                      <placeName>
+                                        <identifier>
+                                          <identifier>P9</identifier>
+                                          <showedMessage>false</showedMessage>
+                                        </identifier>
+                                      </placeName>
+                                    </marking>
+                                  </integerValue>
+                                </markingFunction>
+                                <listTokensAndTime/>
+                                <totalTime>0.0</totalTime>
+                              </expectation>
+                            </rewItem>
+                          </realValue>
+                        </leftExpression>
+                        <numericOperator>
+                          <operator>*</operator>
+                        </numericOperator>
+                        <rigthExpression>
+                          <realValue>
+                            <realParameter>
+                              <identifier>
+                                <identifier>E_OP_NS</identifier>
+                                <showedMessage>false</showedMessage>
+                              </identifier>
+                            </realParameter>
+                          </realValue>
+                        </rigthExpression>
+                      </rigthExpression>
+                    </rigthExpression>
+                  </leftExpression>
+                  <numericOperator>
+                    <operator>*</operator>
+                  </numericOperator>
+                  <rigthExpression>
+                    <realValue>
+                      <realParameter>
+                        <identifier>
+                          <identifier>Time</identifier>
+                          <showedMessage>false</showedMessage>
+                        </identifier>
+                      </realParameter>
+                    </realValue>
+                  </rigthExpression>
+                </expression>
+                <stringExpression>((E{#P5}*E_OP_CP+E{#P9}*E_OP_NS )*Time)</stringExpression>
+                <value>0.035145605828378106</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>1.6933333333333334</x>
+                  <y>0.48</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.RewardMeasure>
+              <org.modcs.tools.spn.model.RewardMeasure>
+                <name>CF</name>
+                <expression>
+                  <leftExpression>
+                    <leftExpression>
+                      <leftExpression>
+                        <realValue>
+                          <rewItem>
+                            <expectation>
+                              <markingFunction>
+                                <integerValue>
+                                  <marking>
+                                    <placeName>
+                                      <identifier>
+                                        <identifier>P5</identifier>
+                                        <showedMessage>false</showedMessage>
+                                      </identifier>
+                                    </placeName>
+                                  </marking>
+                                </integerValue>
+                              </markingFunction>
+                              <listTokensAndTime/>
+                              <totalTime>0.0</totalTime>
+                            </expectation>
+                          </rewItem>
+                        </realValue>
+                      </leftExpression>
+                      <numericOperator>
+                        <operator>*</operator>
+                      </numericOperator>
+                      <rigthExpression>
+                        <leftExpression>
+                          <realValue>
+                            <realParameter>
+                              <identifier>
+                                <identifier>E_OP_CP</identifier>
+                                <showedMessage>false</showedMessage>
+                              </identifier>
+                            </realParameter>
+                          </realValue>
+                        </leftExpression>
+                        <numericOperator>
+                          <operator>+</operator>
+                        </numericOperator>
+                        <rigthExpression>
+                          <leftExpression>
+                            <realValue>
+                              <rewItem>
+                                <expectation>
+                                  <markingFunction>
+                                    <integerValue>
+                                      <marking>
+                                        <placeName>
+                                          <identifier>
+                                            <identifier>P9</identifier>
+                                            <showedMessage>false</showedMessage>
+                                          </identifier>
+                                        </placeName>
+                                      </marking>
+                                    </integerValue>
+                                  </markingFunction>
+                                  <listTokensAndTime/>
+                                  <totalTime>0.0</totalTime>
+                                </expectation>
+                              </rewItem>
+                            </realValue>
+                          </leftExpression>
+                          <numericOperator>
+                            <operator>*</operator>
+                          </numericOperator>
+                          <rigthExpression>
+                            <realValue>
+                              <realParameter>
+                                <identifier>
+                                  <identifier>E_OP_NS</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </realParameter>
+                            </realValue>
+                          </rigthExpression>
+                        </rigthExpression>
+                      </rigthExpression>
+                    </leftExpression>
+                    <numericOperator>
+                      <operator>*</operator>
+                    </numericOperator>
+                    <rigthExpression>
+                      <realValue>
+                        <realParameter>
+                          <identifier>
+                            <identifier>Time</identifier>
+                            <showedMessage>false</showedMessage>
+                          </identifier>
+                        </realParameter>
+                      </realValue>
+                    </rigthExpression>
+                  </leftExpression>
+                  <numericOperator>
+                    <operator>*</operator>
+                  </numericOperator>
+                  <rigthExpression>
+                    <realValue>
+                      <realParameter>
+                        <identifier>
+                          <identifier>CEF</identifier>
+                          <showedMessage>false</showedMessage>
+                        </identifier>
+                      </realParameter>
+                    </realValue>
+                  </rigthExpression>
+                </expression>
+                <stringExpression>((E{#P5}*E_OP_CP+E{#P9}*E_OP_NS )*Time)*CEF</stringExpression>
+                <value>3.514560582837811E-4</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>1.6933333333333334</x>
+                  <y>0.64</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.RewardMeasure>
+            </rewardMeasures>
+            <definitions>
+              <org.modcs.tools.spn.model.Definition>
+                <name>Q1</name>
+                <type>INTEGER</type>
+                <value>100</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>3.34</x>
+                  <y>2.8533333333333335</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.Definition>
+              <org.modcs.tools.spn.model.Definition>
+                <name>Q2</name>
+                <type>INTEGER</type>
+                <value>100</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>5.459999999999999</x>
+                  <y>2.7866666666666666</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.Definition>
+              <org.modcs.tools.spn.model.Definition>
+                <name>Q3</name>
+                <type>INTEGER</type>
+                <value>100</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>7.566666666666666</x>
+                  <y>2.6133333333333333</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.Definition>
+              <org.modcs.tools.spn.model.Definition>
+                <name>t_aloc</name>
+                <type>DOUBLE</type>
+                <value>1.0</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>0.365</x>
+                  <y>0.63</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.Definition>
+              <org.modcs.tools.spn.model.Definition>
+                <name>t_proc</name>
+                <type>DOUBLE</type>
+                <value>1.2</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>0.31666666666666665</x>
+                  <y>0.9116666666666666</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.Definition>
+              <org.modcs.tools.spn.model.Definition>
+                <name>AD_ATACK</name>
+                <type>DOUBLE</type>
+                <value>0.3</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>0.39666666666666683</x>
+                  <y>1.5933333333333333</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.Definition>
+              <org.modcs.tools.spn.model.Definition>
+                <name>new_pods</name>
+                <type>INTEGER</type>
+                <value>10</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>0.35000000000000037</x>
+                  <y>0.49833333333333335</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.Definition>
+              <org.modcs.tools.spn.model.Definition>
+                <name>percent</name>
+                <type>DOUBLE</type>
+                <value>50</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>0.34833333333333333</x>
+                  <y>0.771666666666666</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.Definition>
+              <org.modcs.tools.spn.model.Definition>
+                <name>C1</name>
+                <type>INTEGER</type>
+                <value>2</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>4.213333333333333</x>
+                  <y>1.34</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.Definition>
+              <org.modcs.tools.spn.model.Definition>
+                <name>C2</name>
+                <type>INTEGER</type>
+                <value>2</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>6.379999999999999</x>
+                  <y>1.2</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.Definition>
+              <org.modcs.tools.spn.model.Definition>
+                <name>C3</name>
+                <type>INTEGER</type>
+                <value>2</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>8.5</x>
+                  <y>1.2266666666666666</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.Definition>
+              <org.modcs.tools.spn.model.Definition>
+                <name>time_injection</name>
+                <type>DOUBLE</type>
+                <value>1.0</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>0.34833333333333333</x>
+                  <y>0.36</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.Definition>
+              <org.modcs.tools.spn.model.Definition>
+                <name>AD_FREE</name>
+                <type>DOUBLE</type>
+                <value>2.0</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>0.3233333333333337</x>
+                  <y>2.5316666666666667</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.Definition>
+              <org.modcs.tools.spn.model.Definition>
+                <name>E_OP_NS</name>
+                <type>DOUBLE</type>
+                <value>0.0001</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>1.645</x>
+                  <y>0.8166666666666667</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.Definition>
+              <org.modcs.tools.spn.model.Definition>
+                <name>E_OP_CP</name>
+                <type>DOUBLE</type>
+                <value>0.03</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>1.6116666666666666</x>
+                  <y>0.955</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.Definition>
+              <org.modcs.tools.spn.model.Definition>
+                <name>Time</name>
+                <type>DOUBLE</type>
+                <value>0.1</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>1.6566666666666667</x>
+                  <y>1.1216666666666666</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.Definition>
+              <org.modcs.tools.spn.model.Definition>
+                <name>CEF</name>
+                <type>DOUBLE</type>
+                <value>0.01</value>
+                <position class="java.awt.geom.Point2D$Double">
+                  <x>1.7133333333333334</x>
+                  <y>1.2416666666666667</y>
+                </position>
+                <description></description>
+              </org.modcs.tools.spn.model.Definition>
+            </definitions>
+          </edspn>
+          <initialStringMarking>Q1</initialStringMarking>
+          <description></description>
+        </org.modcs.tools.spn.model.Place>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[2]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[3]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[4]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[5]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[6]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[7]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[8]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[9]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[10]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[11]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[12]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[13]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[14]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[15]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[16]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[17]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[18]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[19]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[20]"/>
+        <org.modcs.tools.spn.model.Place reference="../org.modcs.tools.spn.model.Place/edspn/places/org.modcs.tools.spn.model.Place[21]"/>
+      </places>
+      <delayParameters/>
+      <transitions>
+        <org.modcs.tools.spn.model.TransitionExponential reference="../../places/org.modcs.tools.spn.model.Place/edspn/transitions/org.modcs.tools.spn.model.TransitionExponential"/>
+        <org.modcs.tools.spn.model.TransitionExponential reference="../../places/org.modcs.tools.spn.model.Place/edspn/transitions/org.modcs.tools.spn.model.TransitionExponential[2]"/>
+        <org.modcs.tools.spn.model.TransitionExponential reference="../../places/org.modcs.tools.spn.model.Place/edspn/transitions/org.modcs.tools.spn.model.TransitionExponential[3]"/>
+        <org.modcs.tools.spn.model.TransitionExponential reference="../../places/org.modcs.tools.spn.model.Place/edspn/transitions/org.modcs.tools.spn.model.TransitionExponential[4]"/>
+        <org.modcs.tools.spn.model.TransitionExponential reference="../../places/org.modcs.tools.spn.model.Place/edspn/transitions/org.modcs.tools.spn.model.TransitionExponential[5]"/>
+        <org.modcs.tools.spn.model.TransitionExponential reference="../../places/org.modcs.tools.spn.model.Place/edspn/transitions/org.modcs.tools.spn.model.TransitionExponential[6]"/>
+        <org.modcs.tools.spn.model.TransitionExponential reference="../../places/org.modcs.tools.spn.model.Place/edspn/transitions/org.modcs.tools.spn.model.TransitionExponential[7]"/>
+        <org.modcs.tools.spn.model.TransitionImmediate reference="../../places/org.modcs.tools.spn.model.Place/edspn/transitions/org.modcs.tools.spn.model.TransitionImmediate"/>
+        <org.modcs.tools.spn.model.TransitionImmediate reference="../../places/org.modcs.tools.spn.model.Place/edspn/transitions/org.modcs.tools.spn.model.TransitionImmediate[2]"/>
+        <org.modcs.tools.spn.model.TransitionImmediate reference="../../places/org.modcs.tools.spn.model.Place/edspn/transitions/org.modcs.tools.spn.model.TransitionImmediate[3]"/>
+        <org.modcs.tools.spn.model.TransitionExponential reference="../../places/org.modcs.tools.spn.model.Place/edspn/transitions/org.modcs.tools.spn.model.TransitionExponential[8]"/>
+        <org.modcs.tools.spn.model.TransitionExponential reference="../../places/org.modcs.tools.spn.model.Place/edspn/transitions/org.modcs.tools.spn.model.TransitionExponential[9]"/>
+        <org.modcs.tools.spn.model.TransitionExponential reference="../../places/org.modcs.tools.spn.model.Place/edspn/transitions/org.modcs.tools.spn.model.TransitionExponential[10]"/>
+        <org.modcs.tools.spn.model.TransitionExponential reference="../../places/org.modcs.tools.spn.model.Place/edspn/transitions/org.modcs.tools.spn.model.TransitionExponential[11]"/>
+        <org.modcs.tools.spn.model.TransitionExponential reference="../../places/org.modcs.tools.spn.model.Place/edspn/transitions/org.modcs.tools.spn.model.TransitionExponential[12]"/>
+        <org.modcs.tools.spn.model.TransitionImmediate reference="../../places/org.modcs.tools.spn.model.Place/edspn/transitions/org.modcs.tools.spn.model.TransitionImmediate[4]"/>
+      </transitions>
+      <labelModels>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[2]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[3]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[4]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[5]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[6]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[7]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[8]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[9]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[10]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[11]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[12]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[13]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[14]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[15]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[16]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[17]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[18]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[19]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[20]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[21]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[22]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[23]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[24]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[25]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[26]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[27]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[28]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[29]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[30]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[31]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[32]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[33]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[34]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[35]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[36]"/>
+        <org.modcs.tools.spn.model.LabelModel reference="../../places/org.modcs.tools.spn.model.Place/edspn/labelModels/org.modcs.tools.spn.model.LabelModel[37]"/>
+      </labelModels>
+      <rewardMeasures>
+        <org.modcs.tools.spn.model.RewardMeasure reference="../../places/org.modcs.tools.spn.model.Place/edspn/rewardMeasures/org.modcs.tools.spn.model.RewardMeasure"/>
+        <org.modcs.tools.spn.model.RewardMeasure reference="../../places/org.modcs.tools.spn.model.Place/edspn/rewardMeasures/org.modcs.tools.spn.model.RewardMeasure[2]"/>
+        <org.modcs.tools.spn.model.RewardMeasure reference="../../places/org.modcs.tools.spn.model.Place/edspn/rewardMeasures/org.modcs.tools.spn.model.RewardMeasure[3]"/>
+        <org.modcs.tools.spn.model.RewardMeasure>
+          <name>MRT</name>
+          <expression>
+            <leftExpression>
+              <realValue>
+                <realConstant>
+                  <real>1</real>
+                </realConstant>
+              </realValue>
+            </leftExpression>
+            <numericOperator>
+              <operator>/</operator>
+            </numericOperator>
+            <rigthExpression>
+              <leftExpression>
+                <realValue>
+                  <rewItem>
+                    <expectation>
+                      <markingFunction>
+                        <integerValue>
+                          <marking>
+                            <placeName>
+                              <identifier>
+                                <identifier>P0</identifier>
+                                <showedMessage>false</showedMessage>
+                              </identifier>
+                            </placeName>
+                          </marking>
+                        </integerValue>
+                      </markingFunction>
+                      <listTokensAndTime/>
+                      <totalTime>0.0</totalTime>
+                    </expectation>
+                  </rewItem>
+                </realValue>
+              </leftExpression>
+              <numericOperator>
+                <operator>/</operator>
+              </numericOperator>
+              <rigthExpression>
+                <realValue>
+                  <realParameter>
+                    <identifier>
+                      <identifier>t_proc</identifier>
+                      <showedMessage>false</showedMessage>
+                    </identifier>
+                  </realParameter>
+                </realValue>
+              </rigthExpression>
+            </rigthExpression>
+          </expression>
+          <stringExpression>1/(E{#P0})/t_proc</stringExpression>
+          <value>0.01307237041865066</value>
+          <position class="java.awt.geom.Point2D$Double">
+            <x>3.2016666666666667</x>
+            <y>0.3283333333333333</y>
+          </position>
+          <description></description>
+        </org.modcs.tools.spn.model.RewardMeasure>
+        <org.modcs.tools.spn.model.RewardMeasure>
+          <name>TP</name>
+          <expression>
+            <leftExpression>
+              <realValue>
+                <rewItem>
+                  <expectation>
+                    <markingFunction>
+                      <integerValue>
+                        <marking>
+                          <placeName>
+                            <identifier>
+                              <identifier>P0</identifier>
+                              <showedMessage>false</showedMessage>
+                            </identifier>
+                          </placeName>
+                        </marking>
+                      </integerValue>
+                    </markingFunction>
+                    <listTokensAndTime/>
+                    <totalTime>0.0</totalTime>
+                  </expectation>
+                </rewItem>
+              </realValue>
+            </leftExpression>
+            <numericOperator>
+              <operator>/</operator>
+            </numericOperator>
+            <rigthExpression>
+              <realValue>
+                <realParameter>
+                  <identifier>
+                    <identifier>t_proc</identifier>
+                    <showedMessage>false</showedMessage>
+                  </identifier>
+                </realParameter>
+              </realValue>
+            </rigthExpression>
+          </expression>
+          <stringExpression>(E{#P0})/t_proc</stringExpression>
+          <value>76.54766591877964</value>
+          <position class="java.awt.geom.Point2D$Double">
+            <x>4.445</x>
+            <y>0.11</y>
+          </position>
+          <description></description>
+        </org.modcs.tools.spn.model.RewardMeasure>
+        <org.modcs.tools.spn.model.RewardMeasure>
+          <name>DP</name>
+          <expression>
+            <leftExpression>
+              <realValue>
+                <rewItem>
+                  <probability>
+                    <logicCondition>
+                      <comparison>
+                        <markingFunctionLeft>
+                          <integerValue>
+                            <marking>
+                              <placeName>
+                                <identifier>
+                                  <identifier>P0</identifier>
+                                  <showedMessage>false</showedMessage>
+                                </identifier>
+                              </placeName>
+                            </marking>
+                          </integerValue>
+                        </markingFunctionLeft>
+                        <comparisonOperator>
+                          <operator>=</operator>
+                        </comparisonOperator>
+                        <markingFunctionRight>
+                          <integerValue>
+                            <integerConstant>
+                              <integer>0</integer>
+                            </integerConstant>
+                          </integerValue>
+                        </markingFunctionRight>
+                      </comparison>
+                    </logicCondition>
+                    <totalTime>0.0</totalTime>
+                    <timeEvent>0.0</timeEvent>
+                  </probability>
+                </rewItem>
+              </realValue>
+            </leftExpression>
+            <numericOperator>
+              <operator>*</operator>
+            </numericOperator>
+            <rigthExpression>
+              <realValue>
+                <realConstant>
+                  <real>100</real>
+                </realConstant>
+              </realValue>
+            </rigthExpression>
+          </expression>
+          <stringExpression>(P{#P0=0})*100</stringExpression>
+          <value>0.0</value>
+          <position class="java.awt.geom.Point2D$Double">
+            <x>3.2133333333333334</x>
+            <y>0.53</y>
+          </position>
+          <description></description>
+        </org.modcs.tools.spn.model.RewardMeasure>
+      </rewardMeasures>
+      <definitions>
+        <org.modcs.tools.spn.model.Definition reference="../../places/org.modcs.tools.spn.model.Place/edspn/definitions/org.modcs.tools.spn.model.Definition"/>
+        <org.modcs.tools.spn.model.Definition reference="../../places/org.modcs.tools.spn.model.Place/edspn/definitions/org.modcs.tools.spn.model.Definition[2]"/>
+        <org.modcs.tools.spn.model.Definition reference="../../places/org.modcs.tools.spn.model.Place/edspn/definitions/org.modcs.tools.spn.model.Definition[3]"/>
+        <org.modcs.tools.spn.model.Definition reference="../../places/org.modcs.tools.spn.model.Place/edspn/definitions/org.modcs.tools.spn.model.Definition[4]"/>
+        <org.modcs.tools.spn.model.Definition reference="../../places/org.modcs.tools.spn.model.Place/edspn/definitions/org.modcs.tools.spn.model.Definition[5]"/>
+        <org.modcs.tools.spn.model.Definition reference="../../places/org.modcs.tools.spn.model.Place/edspn/definitions/org.modcs.tools.spn.model.Definition[6]"/>
+        <org.modcs.tools.spn.model.Definition reference="../../places/org.modcs.tools.spn.model.Place/edspn/definitions/org.modcs.tools.spn.model.Definition[7]"/>
+        <org.modcs.tools.spn.model.Definition reference="../../places/org.modcs.tools.spn.model.Place/edspn/definitions/org.modcs.tools.spn.model.Definition[8]"/>
+        <org.modcs.tools.spn.model.Definition reference="../../places/org.modcs.tools.spn.model.Place/edspn/definitions/org.modcs.tools.spn.model.Definition[9]"/>
+        <org.modcs.tools.spn.model.Definition reference="../../places/org.modcs.tools.spn.model.Place/edspn/definitions/org.modcs.tools.spn.model.Definition[10]"/>
+        <org.modcs.tools.spn.model.Definition reference="../../places/org.modcs.tools.spn.model.Place/edspn/definitions/org.modcs.tools.spn.model.Definition[11]"/>
+        <org.modcs.tools.spn.model.Definition reference="../../places/org.modcs.tools.spn.model.Place/edspn/definitions/org.modcs.tools.spn.model.Definition[12]"/>
+        <org.modcs.tools.spn.model.Definition reference="../../places/org.modcs.tools.spn.model.Place/edspn/definitions/org.modcs.tools.spn.model.Definition[13]"/>
+        <org.modcs.tools.spn.model.Definition reference="../../places/org.modcs.tools.spn.model.Place/edspn/definitions/org.modcs.tools.spn.model.Definition[14]"/>
+        <org.modcs.tools.spn.model.Definition reference="../../places/org.modcs.tools.spn.model.Place/edspn/definitions/org.modcs.tools.spn.model.Definition[15]"/>
+        <org.modcs.tools.spn.model.Definition reference="../../places/org.modcs.tools.spn.model.Place/edspn/definitions/org.modcs.tools.spn.model.Definition[16]"/>
+        <org.modcs.tools.spn.model.Definition reference="../../places/org.modcs.tools.spn.model.Place/edspn/definitions/org.modcs.tools.spn.model.Definition[17]"/>
+      </definitions>
+    </edspn>
+  </appSPN>
+  <appEFM>
+    <componentsAvaiables>
+      <org.modcs.tools.efm.entities.EfmComponent>
+        <model>POWER</model>
+        <energyInput>0.0</energyInput>
+        <energyOutput>0.0</energyOutput>
+        <ccu>0.0</ccu>
+        <retailPrice>0.0</retailPrice>
+        <maximumEnergyCapacity>Infinity</maximumEnergyCapacity>
+        <energeticEfficiency>100.0</energeticEfficiency>
+        <demandedEnergy>0.0</demandedEnergy>
+        <embeddedEnergy>0.0</embeddedEnergy>
+        <energyFlowing>0.0</energyFlowing>
+        <type>SourcePoint</type>
+        <path>/gifs/source.png</path>
+        <name>SourcePoint</name>
+        <working>true</working>
+        <exergyCorrection>0.0</exergyCorrection>
+        <calorificPower>0.0</calorificPower>
+        <maxPowerConsumption>0.0</maxPowerConsumption>
+        <thermalEnergyIn>0.0</thermalEnergyIn>
+        <thermalEnergyOut>0.0</thermalEnergyOut>
+        <chilledWaterTemp>0.0</chilledWaterTemp>
+        <waterTempCoolingTower>0.0</waterTempCoolingTower>
+        <roomTemperature>0.0</roomTemperature>
+        <coldWater>0.0</coldWater>
+        <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+        <environmentTemperature>0.0</environmentTemperature>
+        <AC>0.0</AC>
+        <visited>false</visited>
+        <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+        <custo>0.0</custo>
+        <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+      </org.modcs.tools.efm.entities.EfmComponent>
+      <org.modcs.tools.efm.entities.EfmComponent>
+        <model>POWER</model>
+        <energyInput>0.0</energyInput>
+        <energyOutput>0.0</energyOutput>
+        <ccu>0.0</ccu>
+        <retailPrice>0.0</retailPrice>
+        <maximumEnergyCapacity>Infinity</maximumEnergyCapacity>
+        <energeticEfficiency>100.0</energeticEfficiency>
+        <demandedEnergy>0.0</demandedEnergy>
+        <embeddedEnergy>0.0</embeddedEnergy>
+        <energyFlowing>0.0</energyFlowing>
+        <type>TargetPoint</type>
+        <path>/gifs/target.png</path>
+        <name>TargetPoint</name>
+        <working>true</working>
+        <exergyCorrection>0.0</exergyCorrection>
+        <calorificPower>0.0</calorificPower>
+        <maxPowerConsumption>0.0</maxPowerConsumption>
+        <thermalEnergyIn>0.0</thermalEnergyIn>
+        <thermalEnergyOut>0.0</thermalEnergyOut>
+        <chilledWaterTemp>0.0</chilledWaterTemp>
+        <waterTempCoolingTower>0.0</waterTempCoolingTower>
+        <roomTemperature>0.0</roomTemperature>
+        <coldWater>0.0</coldWater>
+        <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+        <environmentTemperature>0.0</environmentTemperature>
+        <AC>0.0</AC>
+        <visited>false</visited>
+        <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+        <custo>0.0</custo>
+        <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+      </org.modcs.tools.efm.entities.EfmComponent>
+    </componentsAvaiables>
+    <graphicalConnectionEFM>
+      <componentGraphicalElements/>
+      <arrowGraphicalElements/>
+      <labelModels/>
+    </graphicalConnectionEFM>
+    <efmComponentSet>
+      <components>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>POWER</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>0.0</retailPrice>
+          <maximumEnergyCapacity>0.0</maximumEnergyCapacity>
+          <energeticEfficiency>100.0</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>0.0</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>PowerComponent</type>
+          <path>/gifs/PowerComponent.png</path>
+          <name>PowerComponent</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>0.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>POWER</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>15000.0</retailPrice>
+          <maximumEnergyCapacity>1000.0</maximumEnergyCapacity>
+          <energeticEfficiency>95.3</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>111.0</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>ACSource</type>
+          <path>/gifs/acsource.png</path>
+          <name>ACSource</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>0.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>POWER</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>3600.0</retailPrice>
+          <maximumEnergyCapacity>5.0</maximumEnergyCapacity>
+          <energeticEfficiency>95.3</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>3.1392</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>UPS_5kVA</type>
+          <path>/gifs/ups.png</path>
+          <name>UPS_5kVA</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>0.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>POWER</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>60000.0</retailPrice>
+          <maximumEnergyCapacity>250.0</maximumEnergyCapacity>
+          <energeticEfficiency>95.3</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>61.03986048</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>UPS_250kVA</type>
+          <path>/gifs/ups.png</path>
+          <name>UPS_250kVA</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>0.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>POWER</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>550.0</retailPrice>
+          <maximumEnergyCapacity>5.0</maximumEnergyCapacity>
+          <energeticEfficiency>98.5</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>0.35928</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>SDTransformer</type>
+          <path>/gifs/sdt.png</path>
+          <name>SDTransformer</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>0.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>POWER</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>800.0</retailPrice>
+          <maximumEnergyCapacity>5.0</maximumEnergyCapacity>
+          <energeticEfficiency>99.5</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>0.7992</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>STS</type>
+          <path>/gifs/sts.png</path>
+          <name>STS</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>0.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>POWER</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>800.0</retailPrice>
+          <maximumEnergyCapacity>5.0</maximumEnergyCapacity>
+          <energeticEfficiency>99.5</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>0.7992</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>ATS</type>
+          <path>/gifs/ats.png</path>
+          <name>ATS</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>0.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>POWER</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>200.0</retailPrice>
+          <maximumEnergyCapacity>5.0</maximumEnergyCapacity>
+          <energeticEfficiency>99.9</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>0.4284</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>Subpanel</type>
+          <path>/gifs/subpanel.png</path>
+          <name>Subpanel</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>0.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>POWER</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>200.0</retailPrice>
+          <maximumEnergyCapacity>5.0</maximumEnergyCapacity>
+          <energeticEfficiency>99.5</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>0.35568</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>PowerStrip</type>
+          <path>/gifs/powerstrip.png</path>
+          <name>PowerStrip</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>0.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>POWER</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>150.0</retailPrice>
+          <maximumEnergyCapacity>5.0</maximumEnergyCapacity>
+          <energeticEfficiency>99.9</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>0.26676</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>JunctionBox</type>
+          <path>/gifs/jb.png</path>
+          <name>JunctionBox</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>0.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>POWER</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>200.0</retailPrice>
+          <maximumEnergyCapacity>5.0</maximumEnergyCapacity>
+          <energeticEfficiency>99.5</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>0.35568</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>PowerStrip10s</type>
+          <path>/gifs/powerstrip.png</path>
+          <name>PowerStrip10s</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>0.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>GENERATOR</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>6000.0</retailPrice>
+          <maximumEnergyCapacity>10.0</maximumEnergyCapacity>
+          <energeticEfficiency>25.0</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>9.7</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>GeneratorGroup</type>
+          <path>/gifs/generator.png</path>
+          <name>GeneratorGroup</name>
+          <working>true</working>
+          <exergyCorrection>1.06</exergyCorrection>
+          <calorificPower>43000.0</calorificPower>
+          <maxPowerConsumption>0.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>GENERATOR</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>66000.0</retailPrice>
+          <maximumEnergyCapacity>500.0</maximumEnergyCapacity>
+          <energeticEfficiency>25.0</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>97.7</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>GeneratorGroup500</type>
+          <path>/gifs/generator.png</path>
+          <name>GeneratorGroup500</name>
+          <working>true</working>
+          <exergyCorrection>1.06</exergyCorrection>
+          <calorificPower>43000.0</calorificPower>
+          <maxPowerConsumption>0.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>POWER</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>3000.0</retailPrice>
+          <maximumEnergyCapacity>550.0</maximumEnergyCapacity>
+          <energeticEfficiency>90.0</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>0.35568</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>Server</type>
+          <path>/gifs/server.png</path>
+          <name>Server</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>0.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>POWER</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>400.0</retailPrice>
+          <maximumEnergyCapacity>550.0</maximumEnergyCapacity>
+          <energeticEfficiency>90.0</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>0.35568</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>Switch</type>
+          <path>/gifs/switch.png</path>
+          <name>Switch</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>0.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>POWER</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>4000.0</retailPrice>
+          <maximumEnergyCapacity>550.0</maximumEnergyCapacity>
+          <energeticEfficiency>90.0</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>0.35568</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>Router</type>
+          <path>/gifs/router.png</path>
+          <name>Router</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>0.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>COOLING</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>5300.0</retailPrice>
+          <maximumEnergyCapacity>15.0</maximumEnergyCapacity>
+          <energeticEfficiency>4.0</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>4.5209</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>Chiller</type>
+          <path>/gifs/chiller.png</path>
+          <name>Chiller</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>0.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>7.0</chilledWaterTemp>
+          <waterTempCoolingTower>35.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>COOLING</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>40000.0</retailPrice>
+          <maximumEnergyCapacity>250.0</maximumEnergyCapacity>
+          <energeticEfficiency>4.0</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>34.12</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>Chiller_C</type>
+          <path>/gifs/chiller.png</path>
+          <name>Chiller_C</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>0.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>7.0</chilledWaterTemp>
+          <waterTempCoolingTower>35.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>COOLING</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>1500.0</retailPrice>
+          <maximumEnergyCapacity>20.0</maximumEnergyCapacity>
+          <energeticEfficiency>0.0</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>1.2795</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>C_Tower </type>
+          <path>/gifs/coolingtower.png</path>
+          <name>C_Tower </name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>3.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>35.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>25.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>COOLING</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>9000.0</retailPrice>
+          <maximumEnergyCapacity>250.0</maximumEnergyCapacity>
+          <energeticEfficiency>0.0</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>7.6777</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>C_Tower_C</type>
+          <path>/gifs/coolingtower.png</path>
+          <name>C_Tower_C</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>3.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>0.0</roomTemperature>
+          <coldWater>0.0</coldWater>
+          <temperatureHotWaterFromChiller>35.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>25.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>COOLING</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>3200.0</retailPrice>
+          <maximumEnergyCapacity>20.0</maximumEnergyCapacity>
+          <energeticEfficiency>98.0</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>2.7296</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>CRAC</type>
+          <path>/gifs/crac.png</path>
+          <name>CRAC</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>3.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>20.0</roomTemperature>
+          <coldWater>7.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+        <org.modcs.tools.efm.entities.EfmComponent>
+          <model>COOLING</model>
+          <energyInput>0.0</energyInput>
+          <energyOutput>0.0</energyOutput>
+          <ccu>0.0</ccu>
+          <retailPrice>30000.0</retailPrice>
+          <maximumEnergyCapacity>300.0</maximumEnergyCapacity>
+          <energeticEfficiency>98.0</energeticEfficiency>
+          <demandedEnergy>0.0</demandedEnergy>
+          <embeddedEnergy>25.59</embeddedEnergy>
+          <energyFlowing>0.0</energyFlowing>
+          <type>CRAC_30t</type>
+          <path>/gifs/crac.png</path>
+          <name>CRAC_30t</name>
+          <working>true</working>
+          <exergyCorrection>0.0</exergyCorrection>
+          <calorificPower>0.0</calorificPower>
+          <maxPowerConsumption>3.0</maxPowerConsumption>
+          <thermalEnergyIn>0.0</thermalEnergyIn>
+          <thermalEnergyOut>0.0</thermalEnergyOut>
+          <chilledWaterTemp>0.0</chilledWaterTemp>
+          <waterTempCoolingTower>0.0</waterTempCoolingTower>
+          <roomTemperature>20.0</roomTemperature>
+          <coldWater>7.0</coldWater>
+          <temperatureHotWaterFromChiller>0.0</temperatureHotWaterFromChiller>
+          <environmentTemperature>0.0</environmentTemperature>
+          <AC>0.0</AC>
+          <visited>false</visited>
+          <fluxoPaiNoAtual>0.0</fluxoPaiNoAtual>
+          <custo>0.0</custo>
+          <multiplicaEficienciasAnteriores>0.0</multiplicaEficienciasAnteriores>
+        </org.modcs.tools.efm.entities.EfmComponent>
+      </components>
+      <map>
+        <entry>
+          <string>ATS</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[7]"/>
+        </entry>
+        <entry>
+          <string>JunctionBox</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[10]"/>
+        </entry>
+        <entry>
+          <string>PowerStrip</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[9]"/>
+        </entry>
+        <entry>
+          <string>Chiller</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[17]"/>
+        </entry>
+        <entry>
+          <string>Server</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[14]"/>
+        </entry>
+        <entry>
+          <string>UPS_5kVA</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[3]"/>
+        </entry>
+        <entry>
+          <string>GeneratorGroup</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[12]"/>
+        </entry>
+        <entry>
+          <string>Subpanel</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[8]"/>
+        </entry>
+        <entry>
+          <string>Router</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[16]"/>
+        </entry>
+        <entry>
+          <string>Chiller_C</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[18]"/>
+        </entry>
+        <entry>
+          <string>SDTransformer</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[5]"/>
+        </entry>
+        <entry>
+          <string>CRAC</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[21]"/>
+        </entry>
+        <entry>
+          <string>PowerStrip10s</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[11]"/>
+        </entry>
+        <entry>
+          <string>STS</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[6]"/>
+        </entry>
+        <entry>
+          <string>Switch</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[15]"/>
+        </entry>
+        <entry>
+          <string>PowerComponent</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent"/>
+        </entry>
+        <entry>
+          <string>UPS_250kVA</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[4]"/>
+        </entry>
+        <entry>
+          <string>C_Tower_C</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[20]"/>
+        </entry>
+        <entry>
+          <string>C_Tower</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[19]"/>
+        </entry>
+        <entry>
+          <string>GeneratorGroup500</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[13]"/>
+        </entry>
+        <entry>
+          <string>CRAC_30t</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[22]"/>
+        </entry>
+        <entry>
+          <string>ACSource</string>
+          <org.modcs.tools.efm.entities.EfmComponent reference="../../../components/org.modcs.tools.efm.entities.EfmComponent[2]"/>
+        </entry>
+      </map>
+      <fileName>EFMcomponents.xml</fileName>
+    </efmComponentSet>
+  </appEFM>
+  <appCTMC>
+    <ctmc>
+      <numberSpaces>0</numberSpaces>
+      <numberLabelModels>0</numberLabelModels>
+      <spaces/>
+      <labelModels/>
+      <parametersList/>
+      <metricList/>
+    </ctmc>
+  </appCTMC>
+  <appDTMC>
+    <dtmc>
+      <spaces/>
+      <labelModels/>
+      <parametersList/>
+      <metricList/>
+      <numberSpaces>0</numberSpaces>
+      <numberLabelModels>0</numberLabelModels>
+    </dtmc>
+  </appDTMC>
+  <appRBD>
+    <rbdModel>
+      <blocksOfModel>
+        <org.modcs.tools.rbd.blocks.BlockExponential>
+          <name>b1</name>
+          <bState>Default</bState>
+          <failureRate>0.0</failureRate>
+          <repairRate>0.0</repairRate>
+          <costOfBlock>0.0</costOfBlock>
+          <isReliabilityEdited>false</isReliabilityEdited>
+          <isMaintainabilityEdited>false</isMaintainabilityEdited>
+          <parameterValue>0.0</parameterValue>
+          <parameterType>TIME</parameterType>
+          <metricsFromSubModel/>
+          <isFirstParamAnalysisStationary>true</isFirstParamAnalysisStationary>
+          <subModelFirstParamTransientAnalysisTime>0.0</subModelFirstParamTransientAnalysisTime>
+          <isSecondParamAnalysisStationary>true</isSecondParamAnalysisStationary>
+          <subModelSecondParamTransientAnalysisTime>0.0</subModelSecondParamTransientAnalysisTime>
+        </org.modcs.tools.rbd.blocks.BlockExponential>
+      </blocksOfModel>
+      <model class="org.modcs.tools.rbd.blocks.BlockExponential" reference="../blocksOfModel/org.modcs.tools.rbd.blocks.BlockExponential"/>
+      <name>Teste</name>
+      <indexOfBlocks>2</indexOfBlocks>
+      <numberOfBlocks>1</numberOfBlocks>
+    </rbdModel>
+    <fileHandler class="org.modcs.tools.rbd.file.FileStream"/>
+    <labelSet>
+      <labels/>
+      <propertyChangeSupport serialization="custom">
+        <java.beans.PropertyChangeSupport>
+          <default>
+            <source class="org.modcs.tools.rbd.evaluatorrbd.LabelSet" reference="../../../.."/>
+            <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+          </default>
+          <null/>
+        </java.beans.PropertyChangeSupport>
+      </propertyChangeSupport>
+    </labelSet>
+    <propertyChangeSupport serialization="custom">
+      <java.beans.PropertyChangeSupport>
+        <default>
+          <source class="org.modcs.tools.rbd.evaluatorrbd.ApplicationRBD" reference="../../../.."/>
+          <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+        </default>
+        <null/>
+      </java.beans.PropertyChangeSupport>
+    </propertyChangeSupport>
+  </appRBD>
+  <propertyChangeSupport serialization="custom">
+    <java.beans.PropertyChangeSupport>
+      <default>
+        <source class="com.local.entities.ProjectDesdac" reference="../../../.."/>
+        <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+      </default>
+      <null/>
+    </java.beans.PropertyChangeSupport>
+  </propertyChangeSupport>
+  <appFT>
+    <ftModel class="org.modcs.tools.faulttree.mercuryfx.entities.FaultTreeFailureNode">
+      <children/>
+      <isLeaf>false</isLeaf>
+      <type>FAILURE</type>
+      <isRoot>true</isRoot>
+      <isFilled>false</isFilled>
+    </ftModel>
+    <fileHandler class="org.modcs.tools.rbd.file.FileStream"/>
+    <labelSet>
+      <labels/>
+      <propertyChangeSupport serialization="custom">
+        <java.beans.PropertyChangeSupport>
+          <default>
+            <source class="org.modcs.tools.faulttree.rbd.evaluatorrbd.FTLabelSet" reference="../../../.."/>
+            <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+          </default>
+          <null/>
+        </java.beans.PropertyChangeSupport>
+      </propertyChangeSupport>
+    </labelSet>
+    <propertyChangeSupport serialization="custom">
+      <java.beans.PropertyChangeSupport>
+        <default>
+          <source class="org.modcs.tools.faulttree.entities.ApplicationFT" reference="../../../.."/>
+          <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+        </default>
+        <null/>
+      </java.beans.PropertyChangeSupport>
+    </propertyChangeSupport>
+  </appFT>
+</com.local.entities.ProjectDesdac>
